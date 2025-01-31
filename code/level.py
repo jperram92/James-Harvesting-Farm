@@ -78,6 +78,11 @@ class Level:
                 print(f"[DEBUG] Adding Giraffe at ({obj.x}, {obj.y})")
                 Giraffe(pos=(obj.x, obj.y), group=self.all_sprites)
 
+        for obj in tmx_data.get_layer_by_name('Objects'):
+            if obj.name == 'Chicken':
+                print(f"[DEBUG] Adding Chicken at ({obj.x}, {obj.y})")
+                Chicken(pos=(obj.x, obj.y), group=self.all_sprites)
+
         # Trees
         #print("[DEBUG] Starting tree creation from TMX layer 'Trees'")
         for obj in tmx_data.get_layer_by_name('Trees'):

@@ -1,5 +1,5 @@
 {
-    "current_day": 65,
+    "current_day": 67,
     "daily_history": [
         {
             "day": 1,
@@ -1024,6 +1024,44 @@
                 "tomato": 5
             },
             "money": 197
+        },
+        {
+            "day": 65,
+            "inventory": {
+                "wood": 0,
+                "apple": 0,
+                "corn": 0,
+                "tomato": 0,
+                "orange_fish": 0,
+                "blue_fish": 0,
+                "starfish": 0,
+                "plastic_bag": 0,
+                "snail": 0
+            },
+            "seed_inventory": {
+                "corn": 5,
+                "tomato": 5
+            },
+            "money": 200
+        },
+        {
+            "day": 66,
+            "inventory": {
+                "wood": 0,
+                "apple": 0,
+                "corn": 0,
+                "tomato": 0,
+                "orange_fish": 0,
+                "blue_fish": 0,
+                "starfish": 0,
+                "plastic_bag": 0,
+                "snail": 0
+            },
+            "seed_inventory": {
+                "corn": 5,
+                "tomato": 5
+            },
+            "money": 200
         }
     ]
 }
